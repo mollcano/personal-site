@@ -29,6 +29,34 @@ body{
   font-size: 5vw;
   letter-spacing: 2vw;
 }
+.links{
+  display: flex;
+  width: 100%;
+  height: 20%;
+  justify-content: space-around;
+}
+.contact{
+  width: 5vw;
+  margin-bottom: 40%;
+}
+.project{
+  border: 1px solid black;
+}
+.projectPic{
+  width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .fname, .lname{
+    font-size: 8vw;
+  }
+  .fullStack{
+    font-size: 5vw;
+  }
+  .contact {
+      width: 5vh;
+  }
+}
 
 
 /*font-family: 'Montserrat', sans-serif;
