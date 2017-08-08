@@ -39,63 +39,79 @@ body{
   width: 5vw;
   margin-bottom: 40%;
 }
-.project{
-  margin: 1px, 1px, 1px, 1px;
-}
+/*.project{
+  margin: 5px;
+}*/
 .projectPic{
   width: 100%;
 }
-.projectPic:hover{
-  background-color: green;
-}
-.about, .myProjects{
+.about{
   margin-left: 1%;
-  margin-right: 1%;
+  margin-right: 4%;
 }
-.project-label{
+
+.project-label, .aboutMe{
   text-align: center;
+  margin-bottom: 5%;
 }
-.aboutMe{
-  text-align: center;
-}
+
 .buttons{
   display: flex;
   width: 70%;
   margin-left: 15%;
   justify-content: space-around;
   margin-bottom: 6%;
+  visibility: hidden;
 }
 .description{
   position: absolute;
   top: 0;
-  left: 2px;
-  right: 2px;
-  bottom: 70px;
-  padding-left: 2px;
-  padding-right: 2px;
-  background: rgba(0,0,0, 0.70);
+  left: 15px;
+  right: 15px;
+  bottom: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: #fff;
   visibility: hidden;
   opacity: 0;
-  border-radius: 2%;
+  border-radius: 1%;
   text-align: center;
+}
+.speakOverlay{
+  background-color: rgba(108,182,185,0.70);
+}
+.strengthOverlay{
+  background-color: rgba(126,86,79,0.80);
 }
 .project-dets:hover .description{
   visibility: visible;
   opacity: 1;
 }
 .project-script{
-  font-size: 1.5vh;
+  font-size: 1.8vh;
 }
 .project-title{
-  font-size: 1.7vh;
-  margin-bottom: 0;
-  margin-top: 1%;
+  font-size: 2.3vh;
+  margin-top: 5%;
 }
-.col-md-4{
-  padding-left: 1%;
-  padding-right: 1%;
+.myPic{
+  width: 60%;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-bottom: 8%;
 }
+.projLinkCont{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  position: absolute;
+  left: 34%;
+}
+.project-links{
+  width: 100%;
+}
+
+
 
 @media screen and (max-width: 950px) {
   .fname, .lname{
