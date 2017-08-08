@@ -40,13 +40,64 @@ body{
   margin-bottom: 40%;
 }
 .project{
-  border: 1px solid black;
+  margin: 1px, 1px, 1px, 1px;
 }
 .projectPic{
-  width: 80%;
+  width: 100%;
+}
+.projectPic:hover{
+  background-color: green;
+}
+.about, .myProjects{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.project-label{
+  text-align: center;
+}
+.aboutMe{
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  justify-content: space-around;
+  margin-bottom: 6%;
+}
+.description{
+  position: absolute;
+  top: 0;
+  left: 2px;
+  right: 2px;
+  bottom: 70px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background: rgba(0,0,0, 0.70);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 2%;
+  text-align: center;
+}
+.project-dets:hover .description{
+  visibility: visible;
+  opacity: 1;
+}
+.project-script{
+  font-size: 1.5vh;
+}
+.project-title{
+  font-size: 1.7vh;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+.col-md-4{
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 950px) {
   .fname, .lname{
     font-size: 8vw;
   }
@@ -56,6 +107,7 @@ body{
   .contact {
       width: 5vh;
   }
+
 }
 
 
