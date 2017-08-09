@@ -46,7 +46,7 @@ body{
   width: 100%;
 }
 .about{
-  margin-left: 1%;
+  margin-left: 2%;
   margin-right: 4%;
 }
 
@@ -55,20 +55,17 @@ body{
   margin-bottom: 5%;
 }
 
-.buttons{
-  display: flex;
-  width: 70%;
-  margin-left: 15%;
-  justify-content: space-around;
-  margin-bottom: 6%;
-  visibility: hidden;
+.phone-description{
+  width: 100%;
+  display: none;
+  text-align: center;
 }
 .description{
   position: absolute;
   top: 0;
   left: 15px;
   right: 15px;
-  bottom: 80px;
+  bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
   color: #fff;
@@ -78,10 +75,19 @@ body{
   text-align: center;
 }
 .speakOverlay{
-  background-color: rgba(108,182,185,0.70);
+  background-color: rgba(108,179,183,0.60);
 }
 .strengthOverlay{
-  background-color: rgba(126,86,79,0.80);
+  background-color: rgba(206, 104, 99,0.60);
+}
+.grooveOverlay{
+  background-color: rgba(230,109,71,0.70);
+}
+.artOverlay{
+  background-color: rgba(165, 144, 46,0.80);
+}
+.drinkOverlay{
+  background-color: rgba(87,106,16,0.70);
 }
 .project-dets:hover .description{
   visibility: visible;
@@ -105,15 +111,53 @@ body{
   justify-content: space-around;
   width: 35%;
   position: absolute;
-  left: 34%;
+  left: 33%;
 }
 .project-links{
   width: 100%;
 }
+.project-links2{
+  width: 70%;
+}
 
+@media screen and (max-width: 1200px) {
+  .project-script{
+    font-size: 1.7vh;
+  }
+  .project-title{
+    font-size: 2.0vh;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 1178px) {
+  .project-script{
+    font-size: 1.6vh;
+  }
+  .project-title{
+    font-size: 1.7vh;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .project-script{
+    font-size: 1.5vh;
+  }
+  .project-title{
+    font-size: 1.6vh;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 1053px) {
+  .project-script{
+    font-size: 1.4vh;
+  }
+  .project-title{
+    font-size: 1.5vh;
+    margin-top: 5%;
+  }
+}
 
-
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 990px) {
   .fname, .lname{
     font-size: 8vw;
   }
@@ -123,7 +167,32 @@ body{
   .contact {
       width: 5vh;
   }
-
+  .myPic{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-bottom: 8%;
+  }
+  .phone-description{
+    display: unset;
+  }
+  .phone-description .projLinkCont{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    margin-bottom: 5%;
+  }
+  .project-dets:hover .description{
+    visibility: hidden;
+  }
+  .project-links{
+    width: 100%;
+  }
+  .project-links2{
+    width: 70%;
+  }
 }
 
 
