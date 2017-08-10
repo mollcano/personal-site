@@ -28,8 +28,8 @@ export default class Header extends Component{
                 </p>
                 <div className="projLinkCont">
                   <a target="blank" href="https://ispeakup.co"><img className="project-links" src="./images/computer.png" alt="website link" /></a>
-                  <a target="blank" href="https://ispeakup.co"><img className="project-links" src="./images/github-proj.png" alt="website link" /></a>
-                  <a target="blank" href="https://ispeakup.co"><img className="project-links" src="./images/youtube.png" alt="website link" /></a>
+                  <a target="blank" href="https://github.com/mollcano/speak-up-frontend"><img className="project-links" src="./images/github-proj.png" alt="website link" /></a>
+                  <a target="blank" href="https://youtu.be/U6TFJulHPQc"><img className="project-links" src="./images/youtube.png" alt="website link" /></a>
                 </div>
               </div>
             </div>
