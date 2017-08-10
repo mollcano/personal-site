@@ -14,8 +14,8 @@ export default class Header extends Component{
                 <div className="description speakOverlay"><h4 className="project-title">Speak Up</h4><p className="project-script">Do you love public speaking? Me neither. Speak Up aims to help you become a better pubic speaker by analyzing different aspects of speech data, including fillers, clarity, pace, and pauses. The app outputs graphs on the different aspects so that you can track your improvement.  <p><em>Built with: IBM Watson Speech-to-Text, Vue.JS, D3.JS, CSS3, HTML5, Node.JS, Express, Knex.JS, PostgreSQL</em></p></p>
                 <div className="projLinkCont">
                   <a target="blank" href="https://ispeakup.co"><img className="project-links" src="./images/computer.png" alt="website link" /></a>
-                  <a target="blank" href="https://ispeakup.co"><img className="project-links" src="./images/github-proj.png" alt="website link" /></a>
-                  <a target="blank" href="https://ispeakup.co"><img className="project-links" src="./images/youtube.png" alt="website link" /></a>
+                  <a target="_blank" href="https://github.com/mollcano/speak-up-frontend"><img className="project-links" src="./images/github-proj.png" alt="website link" /></a>
+                  <a target="blank" href="https://youtu.be/U6TFJulHPQc"><img className="project-links" src="./images/youtube.png" alt="website link" /></a>
                 </div>
                 </div>
               </div>
