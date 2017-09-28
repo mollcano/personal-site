@@ -49,7 +49,7 @@ h1 span {
 }
 .contact{
   width: 4vw;
-  height: 5vh;
+  height: 6vh;
   margin: 10% 5% 10% 5%;
 
 }
@@ -188,6 +188,7 @@ h1 span {
   }
   .contact {
     width: 5vh;
+    height: 5vh;
   }
   .myPic{
     width: 50%;
