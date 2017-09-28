@@ -16,7 +16,7 @@ export default class Contact extends Component{
               <a target="blank" href="mailto:molly@mollcano.com"><img className="contact" src="./images/mail.png" alt="link to email" /></a>
 
 
-              <a target="blank" href="https://drive.google.com/file/d/0B8SjphBDghvYS1c5S2NfbVRZNUk/view?usp=sharing"><img className="contact" src="./images/resume.png" alt="resume" /></a>
+              <a target="blank" href="https://drive.google.com/file/d/0B8SjphBDghvYV2lYdEVORnJYaVU/view?usp=sharing"><img className="contact" src="./images/resume.png" alt="resume" /></a>
 
           </div>
         </div>

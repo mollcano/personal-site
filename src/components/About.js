@@ -5,7 +5,7 @@ export default class About extends Component{
   render(){
     return(
       <div className="container-fluid col-md-3 about">
-        <h3 className="aboutMe">About Me</h3>
+        <h3 className="aboutMe">&#91; ABOUT ME &#93;</h3>
         <img className="myPic" src="./images/MollyPic.jpg" alt="Molly" />
         <p>I'm a psychologist turned web developer. I enjoy solving new problems and coming up with ways to make my life and other's lives easier. My passion for people transfers nicely into developing products with users in mind. I love the mix of developing a simple, yet beautiful front-end site with the exciting problem solving aspects of developing the back-end.</p>
 

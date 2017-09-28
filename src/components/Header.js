@@ -7,10 +7,10 @@ export default class Header extends Component{
       <div className="container-fluid">
         <div className="page-header title">
           <div className = "name">
-            <h1 className="fname">MOLLY</h1><img className="volcano" src="./images/MOLLCANO.png" alt="volcano pic" /><h1 className="lname">BROOKS</h1>
+            <h1 className="fname"><span>&#123; Molly Brooks &#125;</span></h1>
           </div>
           <div className="subtitle">
-            <h1 className="fullStack"><small>Full Stack Web Developer</small></h1>
+            <h2 className="fullStack"><small>Full Stack Web Developer</small></h2>
           </div>
         </div>
       </div>

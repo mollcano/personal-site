@@ -2,7 +2,7 @@ body{
 
 }
 .title{
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Lora', serif;
 }
 .name{
   display: flex;
@@ -15,9 +15,19 @@ body{
   height: 11%;
   margin-right: 2%;
 }
-.fname, .lname{
+.fname{
   font-size: 7vw;
-  letter-spacing: 2vw;
+}
+h1 {
+  width:100%;
+  text-align:center;
+  border-bottom: 4px solid #000;
+  line-height:0.1em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h1 span {
+  background-color: #FFF;
 }
 .subtitle{
   width: 100%;
@@ -51,6 +61,10 @@ body{
 .about{
   margin-left: 2%;
   margin-right: 4%;
+  background-color: #9CDBD2;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  color: #5F5E5F;
 }
 
 .project-label, .aboutMe{
@@ -78,13 +92,16 @@ body{
   text-align: center;
 }
 .speakOverlay{
-  background-color: rgba(108,179,183,0.60);
+  background-color: rgba(70,130,180,0.60);
 }
 .strengthOverlay{
   background-color: rgba(206, 104, 99,0.60);
 }
 .grooveOverlay{
   background-color: rgba(230,109,71,0.70);
+}
+.riskOverlay{
+  background-color: rgba(95,158,160,0.70);
 }
 .artOverlay{
   background-color: rgba(165, 144, 46,0.80);
