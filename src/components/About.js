@@ -4,7 +4,7 @@ import '../App.css';
 export default class About extends Component{
   render(){
     return(
-      <div className="container-fluid col-md-3 col-sm-4 col-xs-12 about">
+      <div className="container-fluid col-md-3 col-sm-4 col-xs-11 about">
         <h3 className="aboutMe">&#91; ABOUT ME &#93;</h3>
         <div className="aboutSmall">
         <img className="myPic" src="./images/MollyPic.jpg" alt="Molly" />
