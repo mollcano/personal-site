@@ -5,7 +5,7 @@ export default class Header extends Component{
   render(){
     return(
       <div className="row">
-        <div className="container-fluid col-md-8 myProjects">
+        <div className="container-fluid col-md-8 col-sm-6 col-xs-12 myProjects">
           <h3 className="project-label">&#91; PROJECTS &#93;</h3>
           <div className="col-md-6 project">
             <div className="project-dets">
@@ -96,14 +96,11 @@ export default class Header extends Component{
             </div>
             <div class="caption">
               <div className="phone-description">
-                <h4>Speak Up</h4>
-                <p>Do you love public speaking? Me neither. Speak Up aims to help you become a better pubic speaker by analyzing different aspects of speech data, including fillers, clarity, pace, and pauses. The app outputs graphs on the different aspects so that you can track your improvement.
-                <p><em>Built with: IBM Watson Speech-to-Text, Vue.JS, D3.JS, CSS3, HTML5, Node.JS, Express, Knex.JS, PostgreSQL</em></p>
-                </p>
+                <h4>Risk-Bit</h4>
+                <p>Safety should be a number one concern.  The current standard of paper and pencil FLRA forms are just not working for anyone.  Risk-Bit simplifies the process of filling out FLRA forms through an iOS platform. Supervisors then can review the FLRA info by worker, score the inputs, and improve the quality of future FLRAs. <p><em>Built with: AWS, Go, Swift, React, HTML5, CSS3, JavaScript, Node.js</em></p></p>
                 <div className="projLinkCont">
-                  <a target="blank" href="https://ispeakup.co"><img className="project-links" src="./images/computer.png" alt="website link" /></a>
-                  <a target="blank" href="https://github.com/mollcano/speak-up-frontend"><img className="project-links" src="./images/github-proj.png" alt="website link" /></a>
-                  <a target="blank" href="https://youtu.be/U6TFJulHPQc"><img className="project-links" src="./images/youtube.png" alt="website link" /></a>
+                  <a target="blank" href="https://github.com/annnfrann/unearthed"><img className="project-links2" src="./images/github-proj.png" alt="website link" /></a>
+                  <a target="blank" href="https://github.com/thexande/riskbit_unearthed_hackathon"><img className="project-links2" src="./images/github-proj.png" alt="website link" /></a>
                 </div>
               </div>
             </div>
