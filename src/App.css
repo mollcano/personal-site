@@ -228,7 +228,7 @@ h1 span {
     width: 70%;
   }
   .title{
-    margin-top: 15% !important;
+    margin-top: 10% !important;
   }
 
 
@@ -252,7 +252,7 @@ h1 span {
     margin-right: 1%;
   }
   .title{
-    margin-top: 15% !important;
+    margin-top: 10% !important;
   }
   .links2{
     margin-left: 3%;
@@ -287,5 +287,8 @@ h1 span {
   }
   p{
     margin: 0 5%;
+  }
+  .title{
+    margin-top: 10% !important;
   }
 }
