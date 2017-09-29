@@ -227,10 +227,6 @@ h1 span {
   .project-links2{
     width: 70%;
   }
-  /*.contact2{
-    width: 3vw;
-    height: 3vh;
-  }*/
   .title{
     margin-top: 15% !important;
   }
@@ -256,7 +252,7 @@ h1 span {
     margin-right: 1%;
   }
   .title{
-    margin-top: 25% !important;
+    margin-top: 15% !important;
   }
   .links2{
     margin-left: 3%;
